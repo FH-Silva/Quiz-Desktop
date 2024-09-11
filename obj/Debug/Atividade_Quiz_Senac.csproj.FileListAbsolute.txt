@@ -1,0 +1,4 @@
+C:\Users\fabio.hfsilva2\source\repos\Atividade_Quiz_Senac\obj\Debug\Atividade_Quiz_Senac.csproj.AssemblyReference.cache
+C:\Users\fabio.hfsilva2\source\repos\Atividade_Quiz_Senac\obj\Debug\Atividade_Quiz_Senac.Properties.Resources.resources
+C:\Users\fabio.hfsilva2\source\repos\Atividade_Quiz_Senac\obj\Debug\Atividade_Quiz_Senac.csproj.GenerateResource.cache
+C:\Users\fabio.hfsilva2\source\repos\Atividade_Quiz_Senac\obj\Debug\Atividade_Quiz_Senac.csproj.CoreCompileInputs.cache

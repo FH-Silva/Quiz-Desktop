@@ -9,5 +9,7 @@ namespace Quiz_atividade
     internal class VariaveisGlobal
     {
         public static int resultado = 0;
+        public static String nome = null;
+        public static DateTime dataHora;
     }
 }

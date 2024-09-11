@@ -17,11 +17,17 @@ namespace Quiz_atividade
             InitializeComponent();
         }
 
-        private void btnFinaliza_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            var jogador = (nome: "Joãozinho", pontuacao: 15, dataHora: "Hora");
-            MessageBox.Show(jogador.nome);
+            MessageBox.Show("Obrigado por participar!");
             this.Close();
+        }
+
+        private void Form12_Load(object sender, EventArgs e)
+        {
+            txtNome.Text = VariaveisGlobal.nome;
+            txtPontos.Text = VariaveisGlobal.resultado.ToString();
+            txtHora.Text = VariaveisGlobal.dataHora.ToString();
         }
     }
 }

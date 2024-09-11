@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.VisualBasic;
 
 namespace Quiz_atividade
 {
@@ -19,12 +20,22 @@ namespace Quiz_atividade
 
         private void btnIniciar_Click(object sender, EventArgs e)
         {
-            
-            Form2 pergunta = new Form2();
+            VariaveisGlobal.nome = Interaction.InputBox("Como se chama?", "Insira seu nome");
+            VariaveisGlobal.dataHora = DateTime.Now;
 
-            pergunta.Show();
-            this.Hide();
-            pergunta.FormClosed += (s, args) => this.Close();
+            if (VariaveisGlobal.nome == string.Empty)
+            {
+                MessageBox.Show("Insira seu nome, por favor");
+            }
+            else
+            {
+                MessageBox.Show(VariaveisGlobal.nome);
+                Form2 pergunta = new Form2();
+
+                pergunta.Show();
+                this.Hide();
+                pergunta.FormClosed += (s, args) => this.Close();
+            }
         }
     }
 }
