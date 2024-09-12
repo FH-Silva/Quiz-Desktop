@@ -86,9 +86,9 @@
             this.radioUm.ForeColor = System.Drawing.Color.White;
             this.radioUm.Location = new System.Drawing.Point(119, 187);
             this.radioUm.Name = "radioUm";
-            this.radioUm.Size = new System.Drawing.Size(71, 26);
+            this.radioUm.Size = new System.Drawing.Size(86, 26);
             this.radioUm.TabIndex = 26;
-            this.radioUm.Text = "Paris";
+            this.radioUm.Text = "França";
             this.radioUm.UseVisualStyleBackColor = false;
             // 
             // label2

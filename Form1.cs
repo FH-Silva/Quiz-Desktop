@@ -29,7 +29,7 @@ namespace Quiz_atividade
             }
             else
             {
-                MessageBox.Show(VariaveisGlobal.nome);
+                MessageBox.Show("Bem-vindo(a) " + VariaveisGlobal.nome);
                 Form2 pergunta = new Form2();
 
                 pergunta.Show();
