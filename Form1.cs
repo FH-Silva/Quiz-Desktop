@@ -21,7 +21,6 @@ namespace Quiz_atividade
         private void btnIniciar_Click(object sender, EventArgs e)
         {
             VariaveisGlobal.nome = Interaction.InputBox("Como se chama?", "Insira seu nome");
-            VariaveisGlobal.dataHora = DateTime.Now;
 
             if (VariaveisGlobal.nome == string.Empty)
             {
@@ -30,6 +29,7 @@ namespace Quiz_atividade
             else
             {
                 MessageBox.Show("Bem-vindo(a) " + VariaveisGlobal.nome);
+                VariaveisGlobal.inicio = DateTime.Now;
                 Form2 pergunta = new Form2();
 
                 pergunta.Show();

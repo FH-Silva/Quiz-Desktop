@@ -1,0 +1,3 @@
+Tempo: 00:55s => Usuário: Fabio, Pontos: 5
+Tempo: 00:37s => Usuário: Henrique, Pontos: 1
+Tempo: 00:45s => Usuário: Linus, Pontos: 9

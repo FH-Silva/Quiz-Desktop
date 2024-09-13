@@ -10,6 +10,8 @@ namespace Quiz_atividade
     {
         public static int resultado = 0;
         public static String nome = null;
-        public static DateTime dataHora;
+        public static DateTime inicio;
+        public static DateTime fim;
+        public static TimeSpan tempo;
     }
 }

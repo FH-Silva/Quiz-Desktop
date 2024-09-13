@@ -37,6 +37,7 @@
             this.txtNome = new System.Windows.Forms.Label();
             this.txtPontos = new System.Windows.Forms.Label();
             this.txtHora = new System.Windows.Forms.Label();
+            this.ranking = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -133,12 +134,28 @@
             this.txtHora.Size = new System.Drawing.Size(0, 27);
             this.txtHora.TabIndex = 11;
             // 
+            // ranking
+            // 
+            this.ranking.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.ranking.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ranking.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ranking.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ranking.ForeColor = System.Drawing.Color.White;
+            this.ranking.Location = new System.Drawing.Point(251, 365);
+            this.ranking.Name = "ranking";
+            this.ranking.Size = new System.Drawing.Size(75, 23);
+            this.ranking.TabIndex = 12;
+            this.ranking.Text = "Ranking";
+            this.ranking.UseVisualStyleBackColor = false;
+            this.ranking.Click += new System.EventHandler(this.ranking_Click);
+            // 
             // Form12
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(581, 400);
+            this.Controls.Add(this.ranking);
             this.Controls.Add(this.txtHora);
             this.Controls.Add(this.txtPontos);
             this.Controls.Add(this.txtNome);
@@ -169,5 +186,6 @@
         private System.Windows.Forms.Label txtNome;
         private System.Windows.Forms.Label txtPontos;
         private System.Windows.Forms.Label txtHora;
+        private System.Windows.Forms.Button ranking;
     }
 }
